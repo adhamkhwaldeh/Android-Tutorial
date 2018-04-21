@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/animationxmlbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="animation xml" />
+
+    <Button
+        android:id="@+id/animationcodebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="animation code" />
+
+
+    <Button
+        android:id="@+id/preanimatorbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="/preanimator" />
+
+    <Button
+        android:id="@+id/animatorxmlbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="animator xml" />
+
+    <Button
+        android:id="@+id/animatorcodebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="animator code" />
+
+
+    <Button
+        android:id="@+id/ripplexmlbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="ripple xml" />
+
+    <Button
+        android:id="@+id/ripplecodebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="Ripple code" />
+
+    <Button
+        android:id="@+id/customripplebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="Custom Ripple" />
+
+    <Button
+        android:id="@+id/rippleeffectbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="ripple effect" />
+
+    <Button
+        android:id="@+id/revealeffectbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="reveal effect" />
+
+    <Button
+        android:id="@+id/vectortbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="vector Drawable" />
+
+    <Button
+        android:id="@+id/drawablecodebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickbtn"
+        android:text="drawable code" />
+
+
+</LinearLayout>

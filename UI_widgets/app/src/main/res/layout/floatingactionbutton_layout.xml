@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buttoncontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/transparent"
+        android:gravity="bottom"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.son.jawad.tutoriallibrary.FloatingActionButton.FloatingActionButton
+            android:id="@+id/fab_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/fab_plus"
+            app:elevation="6dp"
+            app:fab_colorNormal="@color/colorAccent"
+            app:useCompatPadding="true" />
+
+        <com.son.jawad.tutoriallibrary.FloatingActionButton.FloatingActionButton
+            android:id="@+id/fab_addcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/fab_addcart"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fab_colorNormal="@color/colorAccent"
+            app:useCompatPadding="true" />
+
+        <com.son.jawad.tutoriallibrary.FloatingActionButton.FloatingActionButton
+            android:id="@+id/fab_buynow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/carticon"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fab_colorNormal="@color/colorAccent"
+            app:useCompatPadding="true" />
+
+        <com.son.jawad.tutoriallibrary.FloatingActionButton.FloatingActionButton
+            android:id="@+id/fab_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/fab_addfavorite"
+            android:visibility="invisible"
+            app:elevation="6dp"
+            app:fab_colorNormal="@color/colorAccent"
+            app:useCompatPadding="true" />
+
+
+    </LinearLayout>
+</LinearLayout>

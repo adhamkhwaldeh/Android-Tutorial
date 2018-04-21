@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sa="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_columnWeight="1"
+    android:layout_gravity="bottom"
+    android:layout_rowWeight="1"
+    android:layout_weight="3"
+    sa:alignmentMode="alignBounds"
+    sa:columnCount="3"
+    sa:orientation="horizontal"
+    sa:rowCount="3"
+    sa:rowOrderPreserved="false">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        sa:layout_column="0"
+        sa:layout_columnSpan="1"
+        sa:layout_columnWeight="1"
+        sa:layout_gravity="fill"
+        sa:layout_row="0"
+        sa:layout_rowSpan="1"
+        sa:layout_rowWeight="1" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        sa:layout_column="0"
+        sa:layout_columnSpan="1"
+        sa:layout_columnWeight="1"
+        sa:layout_gravity="fill"
+        sa:layout_row="1"
+        sa:layout_rowSpan="1"
+        sa:layout_rowWeight="1" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        sa:layout_column="0"
+        sa:layout_columnSpan="1"
+        sa:layout_columnWeight="1"
+        sa:layout_gravity="fill"
+        sa:layout_row="2"
+        sa:layout_rowSpan="1"
+        sa:layout_rowWeight="1" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        sa:layout_column="1"
+        sa:layout_columnSpan="1"
+        sa:layout_columnWeight="1"
+        sa:layout_gravity="fill"
+        sa:layout_row="0"
+        sa:layout_rowSpan="1"
+        sa:layout_rowWeight="1" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        sa:layout_column="1"
+        sa:layout_columnSpan="2"
+        sa:layout_columnWeight="1"
+        sa:layout_gravity="fill"
+        sa:layout_row="1"
+        sa:layout_rowSpan="2"
+        sa:layout_rowWeight="1" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        sa:layout_column="2"
+        sa:layout_columnSpan="1"
+        sa:layout_columnWeight="1"
+        sa:layout_gravity="fill"
+        sa:layout_row="0"
+        sa:layout_rowSpan="1"
+        sa:layout_rowWeight="1" />
+
+
+</android.support.v7.widget.GridLayout>

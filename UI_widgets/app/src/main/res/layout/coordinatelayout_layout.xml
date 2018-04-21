@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/coordinatestanderdbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="coordinate standerd" />
+
+
+    <Button
+        android:id="@+id/coordinatecollapsebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="coordinate collapse" />
+
+    <Button
+        android:id="@+id/BottomSheetBehaviorbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Bottom Sheet Behavior" />
+
+    <Button
+        android:id="@+id/CustomCoordinateBehaviorbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Custom Coordinate Layout" />
+
+    <Button
+        android:id="@+id/CustomCoordinateGmailBehaviorbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Custom Coordinate Layout Gmail" />
+
+
+</LinearLayout>

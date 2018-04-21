@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/UIbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="UI" />
+
+        <Button
+            android:id="@+id/intentbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Intent" />
+
+        <Button
+            android:id="@+id/fragmentbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Fragment" />
+
+        <Button
+            android:id="@+id/supportbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Support Library" />
+
+        <Button
+            android:id="@+id/networkingbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Networking" />
+
+        <Button
+            android:id="@+id/ImagerLaoderbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Imager Laoder and memory manager" />
+
+        <Button
+            android:id="@+id/servicebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Services" />
+
+        <Button
+            android:id="@+id/storagebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Storage" />
+
+        <Button
+            android:id="@+id/designpattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="design pattern" />
+
+        <Button
+            android:id="@+id/providerbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Providers" />
+
+
+        <Button
+            android:id="@+id/animationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Animation" />
+
+        <Button
+            android:id="@+id/dragdropbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Drag and Drop" />
+
+        <Button
+            android:id="@+id/mapsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Google Map" />
+
+        <Button
+            android:id="@+id/mediabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Media" />
+
+
+        <Button
+            android:id="@+id/sensorbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="Sensors and Devices" />
+
+
+        <Button
+            android:id="@+id/widgetbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onclickbtn"
+            android:text="widgets" />
+
+    </LinearLayout>
+
+
+</ScrollView>

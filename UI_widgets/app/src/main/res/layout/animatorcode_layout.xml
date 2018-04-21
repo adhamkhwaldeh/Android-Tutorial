@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/movebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/move" />
+
+    <Button
+        android:id="@+id/scalebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/scale" />
+
+    <Button
+        android:id="@+id/colorbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/color" />
+
+    <Button
+        android:id="@+id/paddingbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/padding" />
+
+    <ImageView
+        android:id="@+id/animatelist"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/animatelist"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/padding" />
+
+</LinearLayout>
