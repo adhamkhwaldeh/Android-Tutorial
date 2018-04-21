@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.son.jawad.ui_widgets">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <!-- Self explanatory -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- To call a phone number directly without displaying the dialer -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- To enable / disable cellular data -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- To enable / disable wifi -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- To enable / disable bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- Incoming SMS sender history -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- To read phone state -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- To use camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- To read/write master sync status -->
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <!-- To autorotation toggle -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="UnusedAttribute">
+
+        <meta-data
+            android:name="com.son.jawad.ui_widgets.Views.GlideConfiguration"
+            android:value="GlideModule" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.UIActivities.UIActivity">
+
+        </activity>
+        <activity android:name=".Activities$UIActivities.SpinnerActivity">
+
+        </activity>
+        <activity android:name=".Activities$UIActivities.AutoCompleteActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.RatingActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.WebviewActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.SeekBarActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.DateTimeActivity">
+
+        </activity>
+        <activity android:name=".Activities$UIActivities.MenuActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.ButtonActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.CustomActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.LayoutsActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.RelativeActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.TableActivity">
+
+        </activity>
+        <activity android:name=".Activities.UIActivities.FrameActivity">
+
+        </activity>
+        <activity android:name=".FragmentActivity">
+
+        </activity>
+        <activity android:name=".IntentActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.SupportLibraryActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewLayoutManagerActivity">
+
+        </activity>
+        <activity
+            android:name=".Activities.SupportActivities.ViewPagerActivity"
+            android:theme="@style/Base.Widget.AppCompat.ActionBar">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.GridLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.PercentLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.SwipeRefreshLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.StanderdTabLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.FloatinActionButtonActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.CoordinateLayoutActivities.CoordinateLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.CoordinateLayoutActivities.CoordinateStanderdActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.CoordinateLayoutActivities.CoordinateCollapseActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.CoordinateLayoutActivities.BottomSheetBehaviorActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.SlidingPaneLayoutActivity">
+
+        </activity>
+        <activity
+            android:name=".Activities.SupportActivities.DrawerLayoutActivity"
+            android:theme="@style/AppTheme.WithActionBar">
+
+        </activity>
+
+        <activity android:name=".Activities.NetworkingActivities.NetworkActivity">
+
+        </activity>
+        <activity android:name=".Activities.NetworkingActivities.HttpUrlConnectionActivity">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageLoaderActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewAnimationActivity.AdapterSampleActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewAnimationActivity.AnimatorSampleActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewAnimationActivity.RecyclerviewanimationActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewFixedLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewPaggingActivity">
+
+        </activity>
+        <activity
+            android:name=".Activities.SupportActivities.RecyclerviewActivities.RecyclerViewLargDataActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+        </activity>
+
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.TabLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.CustomTabLayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.CustomTabHorizontalCoordinatorNtbActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.CustomTabHorizontalNtbActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.CustomTabSamplesNtbActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.CustomTabTopHorizontalNtbActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.TabLayoutActivities.CustomTabVerticalNtbActivity">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageCashFileActivity">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageLoadfrescoActivity">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageLoadpicassoActivity">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageLoadglideActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.CoordinateLayoutActivities.CustomCoordinatelayoutActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.CoordinateLayoutActivities.GmailStyleActivity">
+
+        </activity>
+        <activity android:name=".Activities.SupportActivities.BottomBarActivity">
+
+        </activity>
+        <activity
+            android:name=".Activities.SupportActivities.ConstraintLayoutActivities.ConstraintSetExampleActivity"
+            android:theme="@style/AppTheme.WithActionBar2">
+
+        </activity>
+
+        <activity
+            android:name=".Activities.SupportActivities.ConstraintLayoutActivities.ConstraintLayoutActivity"
+            android:theme="@style/AppTheme.WithActionBar2">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageLoadglideTransformActivity">
+
+        </activity>
+        <activity android:name=".Activities.ImageLoaderActivities.ImageLoadpicassoTransformationActivity">
+
+        </activity>
+        <activity android:name=".Activities.NetworkingActivities.Retrofit.RetrofitActivity">
+
+        </activity>
+        <activity android:name=".Activities.NetworkingActivities.VolleyActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.ProviderActivities.ProviderActivity">
+
+        </activity>
+        <activity android:name=".Activities.ProviderActivities.ProviderApplicationActivity">
+
+        </activity>
+        <activity android:name=".Activities.ProviderActivities.ProviderContactActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.ProviderActivities.ProviderGeneralSearchActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.StorageActivities.StorageActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.StorageActivities.SharedPreferanceActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.StorageActivities.SharedPreferanceSettingActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.StorageActivities.AndroidSQLiteTutorialActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.DesignPatternActivities.DesignPatternActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.DesignPatternActivities.CodeInjectionActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.DesignPatternActivities.DataBingingActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.DesignPatternActivities.MVPActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.ServicesActivities.ServicesActivity">
+
+        </activity>
+        <activity android:name=".Activities.ServicesActivities.ServiceBindActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.ServicesActivities.ServiceUnBindActivity">
+
+        </activity>
+        <activity android:name=".Activities.ServicesActivities.IntentServiceActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.AnimationActivities.AnimationMainActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.AnimationXMLActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.AnimationCodeActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.AnimatorXMLActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.AnimatorCodeActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.RippleXMLActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.RippleCodeActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.BaseActivities.DrawableActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.AnimationActivities.CustomRipple.CustomRippleActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.AnimationActivities.CustomRipple.RippleBackgroundActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.CustomRipple.MaterialRippleActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.CustomRipple.ReppleEffectActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.revealActivities.RevealActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.revealActivities.StanderdRevealActivity">
+
+        </activity>
+
+        <activity android:name=".Activities.AnimationActivities.revealActivities.CustomRevealActivity">
+
+        </activity>
+        <activity android:name=".Activities.AnimationActivities.VectorActivities.VectorActivity">
+
+        </activity>
+
+        <service android:name=".Activities.ServicesActivities.Services.MyBindService">
+
+        </service>
+        <service
+            android:name=".Activities.ServicesActivities.Services.MyUnBindService"
+            android:enabled="true"
+
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <!--android:enabled="true"-->
+            <!--android:directBootAware="true"-->
+            <!--android:exported="true"-->
+            <!--android:permission="android.permission.RECEIVE_BOOT_COMPLETED"-->
+
+        </service>
+        <service
+            android:name=".Activities.ServicesActivities.Services.MyIntentService"
+            android:exported="false" />
+
+    </application>
+
+
+</manifest>
