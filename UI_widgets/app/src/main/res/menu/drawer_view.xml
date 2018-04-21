@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/hearticon"
+            android:title="First" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/hearticon"
+            android:title="Second" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/hearticon"
+            android:title="Third" />
+
+        <item android:title="Sub items">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:icon="@drawable/hearticon"
+                        android:title="Sub item 1" />
+                    <item
+                        android:icon="@drawable/hearticon"
+                        android:title="Sub item 2" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+
+    <item
+        android:id="@+id/nav_switch"
+        android:title="Downloaded only"
+        app:actionLayout="@layout/action_view_switch" />
+
+</menu>
