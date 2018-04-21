@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="si_default_text_color">#FF0000</color>
+    <color name="si_default_text_color_selected">#FF00FF</color>
+    <color name="si_default_indicator_bg">#ee9999</color>
+
+    <color name="kiss_green">#4caf50</color>
+    <color name="kiss_green_dark">#388E3C</color>
+    <color name="kiss_text_dark">#b3b3b3</color>
+    <color name="kiss_background">#eaeaea</color>
+    <color name="kiss_divider_light">#e0e0e0</color>
+    <color name="kiss_list_background_inverse">#303030</color>
+    <color name="kiss_divider_dark">#434343</color>
+    <color name="kiss_background_light_transparent">#88FFFFFF</color>
+    <color name="kiss_background_dark_transparent">#88222222</color>
+    <color name="kiss_green_semitransparent">#884caf50</color>
+    <color name="searchColor">@color/kiss_text_dark</color>
+    <color name="resultColor">@color/kiss_text_dark</color>
+    <color name="listBackgroundColor">@color/kiss_list_background_inverse</color>
+    <color name="searchBackgroundColor">@color/kiss_list_background_inverse</color>
+    <color name="dividerDrawable">@color/kiss_green</color>
+    <color name="appSelectableItemBackground">@android:color/transparent</color>
+
+    <color name="rippelColor">#FF0000</color>
+
+</resources>
